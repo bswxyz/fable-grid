@@ -277,7 +277,7 @@ html.grid-on .grid-hud{opacity:1;visibility:visible}
 
 /* ===================== REVEALS (JS-gated) ===================== */
 .js .reveal{opacity:0;transform:translateY(22px)}
-.is-in{opacity:1;transform:none;transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.js .reveal.is-in{opacity:1;transform:none;transition:opacity .85s var(--ease),transform .85s var(--ease)}
 
 /* hero intro — CSS/compositor driven via .loaded */
 .js .hero-title .line>span{transform:translateY(112%);transition:transform 1.05s var(--ease)}
