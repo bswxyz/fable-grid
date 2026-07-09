@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>GRID SYSTEM — Guide · How this was built</title>
-<meta name="description" content="How the GRID SYSTEM site was designed and built by Fable: a toggleable modular grid overlay, a Swiss type system, count-up figures, and GitHub Pages." />
+<meta name="description" content="How the GRID SYSTEM site was designed and built by Formwork: a toggleable modular grid overlay, a Swiss type system, count-up figures, and GitHub Pages." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -66,7 +66,7 @@
 
   <span class="tag">Build guide · Site 09 of 25</span>
   <h1>A Swiss studio site with a grid you can <em>actually see</em>.</h1>
-  <p class="lede">GRID SYSTEM is one of 25 sites designed and built by Fable to show craft in
+  <p class="lede">GRID SYSTEM is one of 25 sites designed and built by Formwork to show craft in
     web design and motion. This one is the quiet one — restraint as the flex. Here is exactly how it was made.</p>
 
   <h2>The idea</h2>
@@ -112,8 +112,8 @@ addEventListener('scroll', onBaselineScroll, { passive: true });</code></pre>
   <h2>Ship it on GitHub Pages</h2>
   <p>Every site here is static, so hosting is three commands:</p>
   <pre><code>git init -b main &amp;&amp; git add -A &amp;&amp; git commit -m "ship"
-gh repo create fable-grid --public --source=. --push
-gh api --method POST /repos/OWNER/fable-grid/pages \
+gh repo create formwork-grid --public --source=. --push
+gh api --method POST /repos/OWNER/formwork-grid/pages \
   -f 'source[branch]=main' -f 'source[path]=/'</code></pre>
   <p>Use <strong>relative paths</strong> (<code>./main.js</code>, not <code>/main.js</code>) because project
     Pages live under <code>/repo-name/</code>. Add an empty <code>.nojekyll</code> file so every asset serves verbatim.</p>
@@ -123,7 +123,7 @@ gh api --method POST /repos/OWNER/fable-grid/pages \
     The other 24 sites each swap the central technique — shaders, particles, kinetic type — but the
     discipline is the same.</p>
 
-  <footer>Designed &amp; built by <strong>Fable</strong> · Part of a 25-site showcase · <a href="../">Return to GRID SYSTEM →</a></footer>
+  <footer>Designed &amp; built by <strong>Formwork</strong> · Part of a 25-site showcase · <a href="../">Return to GRID SYSTEM →</a></footer>
 </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Swiss / architecture studio template — live modular grid
 
-**Live demo → https://bswxyz.github.io/fable-grid/** · [How it was built](https://bswxyz.github.io/fable-grid/guide/)
+**Live demo → https://bswxyz.github.io/formwork-grid/** · [How it was built](https://bswxyz.github.io/formwork-grid/guide/)
 
 > A warm-paper International-Typographic-Style site whose actual 12-column grid toggles visible (press G).
 
@@ -28,7 +28,7 @@ works under *any* repo name with zero configuration.
 <summary>Prefer the command line?</summary>
 
 ```bash
-gh repo create my-site --template bswxyz/fable-grid --public --clone
+gh repo create my-site --template bswxyz/formwork-grid --public --clone
 cd my-site
 gh api --method POST /repos/YOUR-USERNAME/my-site/pages \
   -f 'source[branch]=main' -f 'source[path]=/'
@@ -66,6 +66,5 @@ guide/index.html  how-it-works write-up (optional — yours to keep or delete)
 ## License & credit
 
 [MIT](LICENSE) — free for personal and commercial use, no attribution required
-(a link back is always appreciated). Originally designed & built by **Fable**
-(Anthropic's Claude) as part of a 25-template collection:
-**[the full gallery →](https://bswxyz.github.io/fable-showcase/)**
+(a link back is always appreciated). Part of **FORMWORK** — a collection of
+25 free website templates: **[the full gallery →](https://bswxyz.github.io/formwork/)**
